@@ -34,7 +34,7 @@ for index in poem:
     print("|%s|"%index.center(10," "))
 #12.rjust 和 ljust  右对齐和左对齐
 #13.取出空白字符strip   和java trim一样
-str1=" ni "
+str1=" ni  "
 print(str1.strip())
 #14.字符串的分割
 str_split="今天是个好天气-哈哈-吼"
@@ -45,5 +45,10 @@ print(result)
 #15.字符串的切片   从大字符串切 出小字符串   语法:    字符串[开始索引：结束索引：步长]
 my_num="0123456789"
 #字符串逆序
-print(my_num[::-1])
+#print(my_num[::-1])
+print("--------")
+print(my_num[1:6:1])
+
+
+
 
